@@ -1,13 +1,11 @@
 CACHE MANIFEST
 # 2014-10-08T07:35:00
-
 # good link to understand appcache
 # http://www.html5rocks.com/en/tutorials/appcache/beginner/
-
 index.html
 index.css
 index.js
-
+#images
 images.js
 backgrounds/01.jpg
 backgrounds/02.jpg
@@ -44,8 +42,6 @@ backgrounds/32.jpg
 backgrounds/33.jpg
 backgrounds/34.jpg
 backgrounds/39.jpg
-
-
 # prevent non cached ressources to not load on cached page (even online)
 # http://alistapart.com/article/application-cache-is-a-douchebag#section7
 NETWORK:
